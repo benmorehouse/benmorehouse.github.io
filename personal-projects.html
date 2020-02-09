@@ -28,6 +28,19 @@
 	margin-right:auto;	
 	height:1px;
 	width:400px;
+	text-align: center;
+}
+
+.img-container{
+	display: block;
+	height:auto;
+	max-width:600px;
+	margin:auto;
+}
+
+p{
+	text-align:center;
+	line-height:10px;
 }
 
 </style>
@@ -60,9 +73,49 @@
 		 <div class="collection with-header">
 			<div class="collection-header center-align"><h5>log.Warning("Personal Projects")</h5></div>
 				
+			<h5 class="center-align"><a href="github.com/benmorehouse/std" target="_blank"> std </a></h5>
 			<div class="thin-short"></div>	
+			<br />
+			<p> i found out from an early time in my coding career that i had a passion for building hacky tools and what not. this passion led me to my first project i ever built! </p> 
+			<p>std, which stands for shit to do, was a really fun and simple project that i have continuously gotten to hack on throughout my humble career in software. </p>
+			<p>std is a way to manager all of your tasks using vim and some simple bash setup. all i did for my setup was run the executable by creating an alias in my bash profile!</p>
+			<p>i got to build this project purely in go, and was able to expand on the original idea by exploring some of go's community-built frameworks. </p>
+			<p>specifically i got to understand how databases work by using boltdb, which is an embedded, key value database written purely in go! you can check  out how i used their database in an example <a href="https://github.com/benmorehouse/std/blob/cf3f76d6314284cc407082ae0a754485d63d0c95/functions.go#L22">here</a>.</p>
+			<p>i also got to build out the cli with a fun framework called cobra. you can see the code for that <a href="https://github.com/benmorehouse/std/blob/cf3f76d6314284cc407082ae0a754485d63d0c95/commands.go#L16">here</a>.</p>
+			<p> the project has become a center for my workflow both at school, on personal projects, and at my positions as a software engineer. all in all, a very humbling and exciting first project! </p>
+			<br />
+			<img class="img-container" src="assets/std3.png" alt=""></img>
+			<br />
+			<img class="img-container" src="assets/std2.png" alt=""></img>
+			<br />
 			<div class="thin-line"></div>	
+				<h5 class="center-align"><a href="github.com/benmorehouse/rtc" target="_blank"> rtc </a></h5>
+				<div class="thin-short"></div>	
+				<br />
+				<p>this was another really fun project that helped me solidify my passion for tooling. </p>
+				<p>rtc stands for rescuetime cli. rescuetime is an application that allows for the tracking of your time you spend on your laptop. </p>
+				<p>i found it counter-intuitive to have to leave the command line to see how you were doing on your productivity for that day, so i decided to build this in order to fix that issue and keep you in your terminal longer!</p>
+				<p>i got to build this tool using go, and again was able to expand on the project by using my two favorite frameworks: boltdb and cobra!</p>
+				<p>i really focused this project on my ability to get something tangible to work quickly and efficiently. the final product is something that i am really happy with for right now, and am really excited to expand on it soon!</p>
+				<br />
+				<img class="img-container" src="assets/rtc.png" alt=""></img>
+				<br />
+			<div class="thin-line"></div>	
+				<h5 class="center-align"><a href="github.com/benmorehouse/mars" target="_blank"> mars </a></h5>
+				<div class="thin-short"></div>	
+				<br />
+				<p> this is the repository for my internship i had at the marshall school of business at usc. you can read more about what i did <a class="waves-effect" href="work-experience.html">here</a>.</p>
+			<div class="thin-line"></div>	
+				<h5 class="center-align"><a href="github.com/benmorehouse/basicInterpreter" target="_blank"> a basic interpreter </a></h5>
+				<div class="thin-short"></div>	
+				<br />
+				<p> i got to build a really cool interactive webapp with an internally built basic interpreter!</p>
+				<p> this project was inspired by my second cultivated passion that i got from a class i took on data structures and algorithms at usc</p>
+				<p> i got to build the frontend server side code along with the help of some internally implemented TCP libraries offered in go (take a look at net/http). I also was able to do some fun things with javascript, ajax, and of course html and css for the frontend. </p>
+				<p> i built the actual interpreter with c++, and was able to really get a good understanding of objected oriented programming through this fun assignment. </p>
+				<p> it still has a bit to go, as I have been able to build the interpreter but am still in the process of building the front end! </p>
 
+				
 		 </div>
 	</body>
 	<script>
